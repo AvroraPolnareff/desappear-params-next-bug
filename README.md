@@ -7,7 +7,7 @@ npm install && npm start
 
 ## Description
 The bug appears if you specify in the Link component a href like `"/params?a=1"` to the page,
-which props are received via getServerSideProps, and fetch of the corresponding json file fails.
+which props are received via getServerSideProps, and fetch of the corresponding json file with props fails.
 
 ## How to repoduce
 1. Launch project
